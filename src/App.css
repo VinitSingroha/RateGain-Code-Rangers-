@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.form-control{
+  width: 80%;
+  /* background-color: #282c34; */
+  height: 60px;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../back.png"); 
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.input-group {
+  margin-top: 20%;
+  width: 50%;
+  height: 10px;
+}
+
+.input-group .btn{
+  background-color: rgb(240, 149, 30);
+  height: 60px;
+  margin-top: 0;
+  width: 100px;
+}
+.card-group{
+  margin-top: 20%;
+}
+.card{
+  margin: 70px;
+  padding: 10px;
+
+}
+
+.btn {
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 170px;
+  background-color: rgb(240, 149, 30);
+}
+
